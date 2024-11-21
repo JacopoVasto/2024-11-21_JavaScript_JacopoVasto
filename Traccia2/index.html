@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #articles {
+            display: flex;
+        }
+        .articleWrap {
+            background-color: rgb(255, 253, 146);
+            justify-content: space-around;
+            border-radius: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Crea un nuovo articolo</h1>
+    <label for="title">Titolo:</label><br>
+    <input type="text" id="title" placeholder="Inserisci il titolo"><br><br>
+    
+    <label for="content">Paragrafo:</label><br>
+    <textarea id="content" rows="5" placeholder="Inserisci il contenuto"></textarea><br><br>
+    
+    <button id="createArticle">Crea Articolo</button>
+    
+    <h2>Articoli:</h2>
+    <div id="articles"></div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
